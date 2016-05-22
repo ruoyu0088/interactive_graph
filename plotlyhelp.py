@@ -36,7 +36,8 @@ def init_plotly_online_mode():
     require.config({
       paths: {
         d3: 'http://cdnjs.cloudflare.com/ajax/libs/d3/3.5.16/d3.min',
-        plotly: 'http://cdn.plot.ly/plotly-1.10.0.min'
+        plotly: 'http://cdn.plot.ly/plotly-1.10.0.min',
+        jquery: 'https://code.jquery.com/jquery-migrate-1.4.1.min'
       },
 
       shim: {
